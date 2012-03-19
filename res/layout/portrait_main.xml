@@ -45,13 +45,13 @@
 		android:layout_marginTop="4dip"
 	/>
 <!--Display:1024x600-->
-<!--	<ImageButton android:id="@+id/cs_app_header1"
+	<ImageButton android:id="@+id/cs_app_header1"
 		android:layout_width="296dp"
 		android:layout_height="wrap_content"
 		android:background="@drawable/cs_app_header_focused"
 		android:layout_marginTop="38dip"
 		android:onClick="handleFocus"
-	/> -->
+	/>
 <!--Display:1366x768-->
 <!-- <ImageButton android:id="@+id/cs_app_header1"
 		android:layout_width="382dp"
@@ -61,13 +61,13 @@
 		android:onClick="handleFocus"
 	/> -->
 <!--Display:1280x800-->
-	<ImageButton android:id="@+id/cs_app_header1"
+<!--	<ImageButton android:id="@+id/cs_app_header1"
 		android:layout_width="398dp"
 		android:layout_height="wrap_content"
 		android:background="@drawable/cs_app_header_focused"
 		android:layout_marginTop="38dip"
 		android:onClick="handleFocus"
-	/>
+	/> -->
 	<TextView android:id="@+id/cs_app1_title"
 		android:layout_width="200dp"
 		android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
 		android:ellipsize="end"
 	/>
 <!--Display:1024x600-->
-<!--	<ImageButton android:id="@+id/launch_0_button"
+	<ImageButton android:id="@+id/launch_0_button"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:background="@drawable/control_applaunch_focused"
@@ -102,7 +102,7 @@
 		android:onClick="launchApp"
 	/> -->
 <!--Display:1280x800-->
-	<ImageButton android:id="@+id/launch_0_button"
+<!--	<ImageButton android:id="@+id/launch_0_button"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:background="@drawable/control_applaunch_focused"
@@ -110,9 +110,9 @@
 		android:layout_marginRight="412dp"
 		android:layout_marginTop="38dp"
 		android:onClick="launchApp"
-	/>
+	/> -->
 <!--Display:1024x600-->
-<!--	<ImageButton android:id="@+id/cs_app_header2"
+	<ImageButton android:id="@+id/cs_app_header2"
 		android:layout_width="296dp"
 		android:layout_height="wrap_content"
 		android:background="@drawable/cs_app_header_unfocused"
@@ -120,7 +120,7 @@
 		android:layout_marginTop="38dip"
 		android:layout_marginLeft="4dip"
 		android:onClick="handleFocus"
-	/> -->
+	/>
 <!--Display:1366x768-->
 <!-- <ImageButton android:id="@+id/cs_app_header2"
 		android:layout_width="382dp"
@@ -131,16 +131,16 @@
 		android:onClick="handleFocus"
 	/> -->
 <!--Display:1280x800-->
-	<ImageButton android:id="@+id/cs_app_header2"
+<!--	<ImageButton android:id="@+id/cs_app_header2"
 		android:layout_width="398dp"
 		android:layout_height="wrap_content"
 		android:background="@drawable/cs_app_header_unfocused"
 		android:layout_alignParentRight="true"
 		android:layout_marginTop="38dip"
 		android:onClick="handleFocus"
-	/>
+	/> -->
 <!--Display:1024x600-->
-<!--	<TextView android:id="@+id/cs_app2_title"
+	<TextView android:id="@+id/cs_app2_title"
 		android:layout_width="200dp"
 		android:layout_height="wrap_content"
 		android:text="@string/empty_str"
@@ -152,7 +152,7 @@
 		android:singleLine="true"
 		android:textColor="#cccccc"
 		android:ellipsize="end"
-	/> -->
+	/>
 <!--Display:1366x768-->
 <!-- <TextView android:id="@+id/cs_app2_title"
 		android:layout_width="200dp"
@@ -168,7 +168,7 @@
 		android:ellipsize="end"
 	/> -->
 <!--Display:1280x800-->
-	<TextView android:id="@+id/cs_app2_title"
+<!--	<TextView android:id="@+id/cs_app2_title"
 		android:layout_width="200dp"
 		android:layout_height="wrap_content"
 		android:text="@string/empty_str"
@@ -180,9 +180,9 @@
 		android:singleLine="true"
 		android:textColor="#cccccc"
 		android:ellipsize="end"
-	/>
+	/> -->
 <!--Display:1024x600-->
-<!--	<ImageButton android:id="@+id/launch_1_button"
+	<ImageButton android:id="@+id/launch_1_button"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:background="@drawable/control_applaunch_unfocused"
@@ -190,7 +190,7 @@
 		android:layout_marginRight="10dp"
 		android:layout_marginTop="38dip"
 		android:onClick="launchApp"
-	/> -->
+	/>
 <!--Display:1366x768-->
 <!-- <ImageButton android:id="@+id/launch_1_button"
 		android:layout_width="wrap_content"
@@ -202,7 +202,7 @@
 		android:onClick="launchApp"
 	/> -->
 <!--Display:1280x800-->
-	<ImageButton android:id="@+id/launch_1_button"
+<!--	<ImageButton android:id="@+id/launch_1_button"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:background="@drawable/control_applaunch_unfocused"
@@ -210,5 +210,5 @@
 		android:layout_marginRight="10dp"
 		android:layout_marginTop="38dp"
 		android:onClick="launchApp"
-	/>
+	/> -->
 </RelativeLayout>
